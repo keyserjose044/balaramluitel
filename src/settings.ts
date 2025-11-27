@@ -1,53 +1,55 @@
+// SETTINGS FOR BALARAM LUITEL
+
 export const profile = {
-  fullName: 'Rohitashva K. Singh',
-  title: 'Dr.', // title shown in sidebar before the name
-  institute: 'Postdoc at the University of Louisville', // hero subtitle
-  author_name: 'Rohitashva K. Singh',
+  fullName: 'Balaram Luitel',
+  title: '', // no "Dr." yet; can change to 'Mr.' or leave empty
+  institute: 'PhD Student in Civil Engineering, The University of Texas at Arlington',
+  author_name: 'Balaram Luitel',
 
   research_areas: [
     {
-      title: 'Nano-reinforced cementitious composites',
+      title: 'Bridge engineering & load rating',
       description:
-        'CNT/CNF-modified binders and hybrid fiber systems to enhance tensile strength, toughness, and post-crack energy absorption.',
+        'Analytical modeling and load rating of highway bridges, with experience on multiple TxDOT projects using tools such as CSiBridge, PGSuper, and other structural analysis software.',
+      field: 'structures',
+    },
+    {
+      title: 'Prestressed & precast concrete structures',
+      description:
+        'Behavior and design of precast/prestressed bridge elements, including fabrication inspection, construction monitoring, and performance evaluation of girders and decks.',
       field: 'materials',
     },
     {
-      title: 'Low-embodied-carbon & CO₂-utilizing concretes',
+      title: 'Structural evaluation & nondestructive testing',
       description:
-        'SCMs (calcined clays, slag, fly ash), biochar, and mineralization strategies to reduce cement-related emissions.',
-      field: 'sustainability',
-    },
-    {
-      title: 'Concrete rheology & early-age behavior',
-      description:
-        'Tailoring fresh-state rheology for pumpability, workability, and advanced applications such as 3D printing.',
-      field: 'rheology',
-    },
-    {
-      title: 'ASR mitigation & durability',
-      description:
-        'Metakaolin–CNT blends and microstructural engineering to control expansion and preserve mechanical performance.',
+        'Field testing and condition assessment of bridges using load testing, deck scanning, ground-penetrating radar (GPR), and impact-echo methods to inform maintenance and retrofit decisions.',
       field: 'durability',
+    },
+    {
+      title: 'Construction materials & field inspection',
+      description:
+        'Hands-on experience with construction materials testing and inspection, including concrete, soils, masonry, asphalt, and structural steel, as well as documentation of field activities.',
+      field: 'construction',
     },
   ],
 };
 
 // SOCIALS
 export const social = {
-  email: 'mailto:rohitashva.xlr8@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/rohitashvasingh/',
-  x: 'https://x.com/hitromarku',
+  email: '', // add when you’re ready, e.g. 'mailto:balaram.luitel@mavs.uta.edu'
+  linkedin: 'https://www.linkedin.com/in/brmluitel',
+  x: '',
   github: '',
   gitlab: '',
-  scholar: 'https://scholar.google.com/citations?user=4YWjnXIAAAAJ&hl=en',
+  scholar: '', // add Google Scholar profile when available
   inspire: '',
   arxiv: '',
-  orcid: 'https://orcid.org/0009-0001-1583-9445',
+  orcid: '',
 };
 
 // TEMPLATE SETTINGS
 export const template = {
-  website_url: 'https://rohitashvasingh.com',
+  website_url: 'https://balaramluitel.com',
   menu_left: false,
   transitions: true,
   lightTheme: 'light',
@@ -59,8 +61,9 @@ export const template = {
 
 // SEO
 export const seo = {
-  default_title: 'Dr. Rohitashva K. Singh',
+  default_title: 'Balaram Luitel',
   default_description:
-    'Portfolio of Dr. Rohitashva K. Singh, materials and structural engineer specializing in nano-reinforced cementitious composites, sustainable concrete, and durability.',
-  default_image: '/images/rohitbanner.png',
+    'Portfolio of Balaram Luitel, civil engineer (EIT) and PhD student specializing in bridge engineering, prestressed concrete structures, and structural evaluation.',
+  // update this to whatever banner image you add for him
+  default_image: '/images/balaram-banner.png',
 };
