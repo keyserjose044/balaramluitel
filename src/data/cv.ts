@@ -1,148 +1,183 @@
 export const experiences = [
   {
     company: 'The University of Texas at Arlington',
-    time: 'Jan 2021 – Dec 2025',
-    title: 'Graduate Research Assistant / Graduate Teaching Assistant',
+    time: 'Aug 2022 – Present',
+    title: 'Graduate Research Assistant',
     location: 'Arlington, TX, USA',
     description:
-      'PhD research in civil engineering (structural/materials) focused on nano-reinforced cementitious composites, sustainable low-carbon concretes, concrete rheology, and durability. Designed and optimized PLC/OPC systems incorporating SCMs, cellulose nanofibers, biochar, and CNT/CNF networks. Conducted experimental programs on flexural and compressive behavior, fracture mechanics, and ASR mitigation using advanced characterization tools (SEM-EDS, XRD, FTIR, Raman, AFM-QNM/nano-IR, nano-CT, calorimetry, TGA, rheometry). Assisted in teaching structural and materials courses, mentoring undergraduate and master’s students in experimental methods and technical writing.',
+      'Graduate research in civil/structural engineering focused on bridge engineering and assessment. Inspected precast element fabrication and bridge construction on multiple TxDOT projects; conducted in-service bridge load testing, deck scanning with GPR and Impact Echo, and load rating using analytical and numerical models. Assisted with computer modeling and preparation of technical reports and documentation for TxDOT bridges; visited more than 20 bridge sites.',
   },
   {
-    company: 'Indian Institute of Technology Gandhinagar',
-    time: '2018 – 2020',
+    company: 'The University of Texas at Arlington',
+    time: 'Jan 2023 – May 2024',
     title: 'Graduate Teaching Assistant',
-    location: 'Gandhinagar, Gujarat, India',
+    location: 'Arlington, TX, USA',
     description:
-      'Supported teaching in structural engineering courses while completing an M.Tech. in Structural Engineering. Research focused on computational modeling of the masonry–mortar interface using the Material Point Method. Assisted with assignments, grading, and student tutorials on structural analysis and numerical modeling.',
+      'Supported teaching in reinforced concrete, timber, steel, and construction surveying courses. GTA responsibilities have included CE 3347 Reinforced Concrete Design (Spring 2023), CE 5307/4365 Structural Timber Design (Spring 2024), CM 1331 Construction Surveying (Spring 2024), CE 5312/4361 Advanced Reinforced Concrete Design (Fall 2025), and CE 5314 Advanced Steel Design II (Fall 2025). Assisted with lectures, grading, office hours, and student project support.',
   },
   {
-    company: 'Giani Zail Singh College of Engineering & Technology',
-    time: '2013 – 2017',
-    title: 'Undergraduate Student, Civil Engineering (NSS Executive Member)',
-    location: 'Bathinda, Punjab, India',
+    company: 'ASCE–SEI Graduate Student Chapter, UTA',
+    time: 'Sep 2022 – Sep 2023',
+    title: 'Vice President',
+    location: 'Arlington, TX, USA',
     description:
-      'Completed core civil engineering coursework in structures, materials, and construction. Served as an Executive Member of the National Service Scheme (NSS), coordinating student-led community outreach and service activities.',
+      'Coordinated technical seminars, guest lectures, and networking events for graduate students in structural engineering. Helped organize student participation in ASCE/SEI activities and fostered collaboration between students, faculty, and industry professionals.',
+  },
+  {
+    company: 'TES, a Congruex Company',
+    time: 'Jan 2022 – Aug 2022',
+    title: 'Structural Engineer I',
+    location: 'USA',
+    description:
+      'Entry-level structural engineer working on transportation and infrastructure projects. Performed structural analysis and design using software such as RISA and CSiBridge, prepared calculation packages and plan sets, and coordinated with project managers and multidisciplinary design teams.',
+  },
+  {
+    company: 'ECS Southwest LLP',
+    time: 'Jul 2021 – Aug 2021',
+    title: 'Construction Materials Intern',
+    location: 'Carrollton, TX, USA',
+    description:
+      'Construction materials testing internship. Observed and documented field activities; sampled and tested soils, aggregates, concrete, grout, masonry, asphalt, and structural steel. Performed basic calculations and data reduction, used field screening equipment, interpreted engineering plans, and communicated daily with contractors, technicians, and project managers while often serving as the sole ECS representative on project sites.',
+  },
+  {
+    company: 'The University of Texas at Arlington',
+    time: 'Nov 2020 – Apr 2021',
+    title: 'Undergraduate Research Assistant',
+    location: 'Arlington, TX, USA',
+    description:
+      'Assisted on the project “Re-imagining the Use of Mine Tailings into Construction Materials,” including compressive strength testing, data analysis, and preparation of a poster for Innovation Day. Gained early exposure to experimental methods in construction materials and structural engineering.',
+  },
+  {
+    company: 'Dallas College North Lake Campus',
+    time: 'Sep 2018 – May 2019',
+    title: 'Math Peer Tutor',
+    location: 'Irving, TX, USA',
+    description:
+      'Provided peer tutoring in mathematics for community college students, helping them strengthen problem-solving skills and prepare for exams. Developed communication and teaching abilities through one-on-one and small-group sessions.',
   },
 ];
 
 export const education = [
   {
     school: 'The University of Texas at Arlington',
-    time: 'Jan 2021 – Dec 2025',
-    degree: 'Doctor of Philosophy (PhD), Civil Engineering – Structural Engineering',
+    time: 'Aug 2022 – May 2026 (expected)',
+    degree: 'Doctor of Philosophy (PhD), Civil Engineering',
     location: 'Arlington, TX, USA',
     description:
-      'Dissertation on the design and optimization of sustainable, high-performance cementitious materials. Emphasis on nano- and micro-scale tailoring of cementitious matrices to control early-age rheology and enhance long-term mechanical performance and durability. GPA: 4.0/4.0.',
+      'Doctoral studies in civil engineering with emphasis on structural engineering and bridge infrastructure. Coursework and research focus on bridge design, load rating, field testing, and structural assessment using advanced analysis tools.',
   },
   {
-    school: 'Indian Institute of Technology Gandhinagar',
-    time: '2018 – 2020',
-    degree: 'Master of Technology (M.Tech), Structural Engineering',
-    location: 'Gandhinagar, Gujarat, India',
+    school: 'The University of Texas at Arlington',
+    time: '2019 – 2021',
+    degree: 'Bachelor of Science (BS), Civil Engineering',
+    location: 'Arlington, TX, USA',
     description:
-      'Research concentrated on computational modeling of masonry–mortar interfaces using the Material Point Method. Served as Graduate Teaching Assistant for two years, supporting structural engineering courses and labs. CGPA: 8.0/10.0.',
+      'Completed core civil engineering curriculum with emphasis on structural analysis, transportation, and construction materials. Recipient of multiple UTA scholarships and actively involved in research and professional societies.',
   },
   {
-    school: 'Giani Zail Singh College of Engineering & Technology, Bathinda',
-    time: '2013 – 2017',
-    degree: 'Bachelor of Engineering, Civil Engineering',
-    location: 'Bathinda, Punjab, India',
+    school: 'Dallas College North Lake Campus',
+    time: '2018 – 2019',
+    degree: 'Associate of Science (AS)',
+    location: 'Irving, TX, USA',
     description:
-      'Foundation in structural analysis, concrete technology, geotechnical engineering, and construction management. Active in the National Service Scheme (NSS) as an Executive Member. Graduated with 80.34% marks.',
+      'Pre-engineering studies with strong performance in mathematics and science. Member of Phi Theta Kappa honor society.',
   },
 ];
 
 export const skills = [
   {
-    title: 'Sustainable Concrete & Supplementary Cementitious Materials (SCMs)',
+    title: 'Bridge Engineering, Load Rating & Field Testing',
     description:
-      'Design and optimization of low-embodied-carbon concretes using calcined clays, slag, fly ash, and other SCMs; development of mixes that balance workability, strength, durability, and CO₂ footprint.',
+      'Experience with bridge inspection, precast element fabrication review, in-service bridge load testing, and preparation of load rating reports for TxDOT bridges using tools such as CSiBridge and PGSuper.',
   },
   {
-    title: 'Nano-reinforced Cementitious Composites',
+    title: 'Structural Analysis & Finite Element Modeling',
     description:
-      'Incorporation of CNTs, CNFs, hybrid fiber systems, and biochar into PLC/OPC matrices to improve flexural strength, elastic modulus, fracture toughness, and pre-crack energy absorption.',
+      'Proficient in structural modeling and analysis using ETABS, RISA, Ansys Mechanical, and Abaqus for buildings and bridge structures, including linear and nonlinear analysis.',
   },
   {
-    title: 'Durability & ASR Mitigation',
+    title: 'Construction Materials Testing & Inspection',
     description:
-      'Microstructural tailoring with SCMs and nanoscale fibers to increase alkali-binding capacity, reduce ASR expansion, and preserve mechanical performance through multiscale testing and analysis.',
+      'Hands-on experience sampling and testing concrete, soils, aggregates, asphalt, grout, masonry, and structural steel in the field and laboratory, and documenting results in compliance with project specifications.',
   },
   {
-    title: 'Materials Characterization & Testing',
+    title: 'CAD & BIM Tools',
     description:
-      'Hands-on experience with SEM-EDS, XRD, FTIR, Raman spectroscopy, AFM-QNM/nano-IR, nano-CT, isothermal calorimetry, TGA, rheometry, and mechanical testing (flexural, compressive, fracture).',
+      'Skilled in AutoCAD, Autodesk Civil 3D, Revit, and related drafting/modeling tools for preparation of plans, details, and 3D representations of civil and structural projects.',
   },
   {
-    title: 'Technical Writing, Publications & Presentations',
+    title: 'Teaching, Mentoring & Leadership',
     description:
-      'Peer-reviewed journal and conference publications in cement and concrete materials, ACI conference presentations, and award-winning research communication (including ACI Research in Progress).',
+      'Graduate Teaching Assistant for multiple structural and construction courses; experience tutoring mathematics and leading the ASCE–SEI Graduate Student Chapter as Vice President, developing strong communication and mentoring skills.',
   },
 ];
 
-export const publications = [
-  {
-    title: 'Enhancing concrete\'s resistance to ASR by integrating metakaolin–carbon nanotube blends',
-    authors: 'R. K. Singh et al.',
-    journal: 'Cement and Concrete Composites',
-    time: '2024',
-    link: 'https://www.sciencedirect.com/science/article/abs/pii/S0958946525003555',
-    abstract:
-      'Proposes metakaolin–CNT blends as a strategy to mitigate alkali–silica reaction in concrete. The work shows that combining metakaolin with well-dispersed CNTs improves alkali binding and modifies the C-S-H composition in the interfacial transition zone, significantly reducing expansion below ASTM C1567 limits while preserving modulus and tensile energy absorption after ASR exposure.',
-  },
-  {
-    title: 'On the interactions of carbon nanotubes with metakaolin cementitious binders: Effects on ITZ, modulus and toughness',
-    authors: 'R. K. Singh et al.',
-    journal: 'Construction and Building Materials',
-    time: '2023',
-    link: 'https://www.sciencedirect.com/science/article/abs/pii/S0950061823033238',
-    abstract:
-      'Investigates how small dosages of CNTs influence the mechanical response and microstructure of metakaolin-modified mortars. Results show substantial gains in flexural strength, Young’s modulus, and post-crack toughness when 0.1 wt% CNTs are added to 20% metakaolin mixes, linked to a denser ITZ and altered C-S-H chemistry with lower Ca/Si ratios.',
-  },
-  {
-    title: 'Multiscale toughening mechanism in hybrid fiber reinforced cement-based nanocomposites',
-    authors: 'R. K. Singh et al.',
-    journal: 'Springer (Book Chapter)',
-    time: '2024',
-    link: 'https://link.springer.com/chapter/10.1007/978-3-031-70145-0_21',
-    abstract:
-      'Evaluates hybrid reinforcement systems combining carbon nanofibers and polypropylene microfibers in cementitious composites. Using fracture mechanics tests on notched prisms, the study demonstrates large increases in critical stress intensity, fracture toughness, and toughness indices compared to single-scale reinforcement, and explains the multiscale crack-arrest mechanisms responsible for the improved performance.',
-  },
-  {
-    title: 'CO₂ utilization for cementitious materials – A review',
-    authors: 'R. K. Singh et al.',
-    journal: 'KSCE Journal of Civil Engineering',
-    time: '2024',
-    link: 'https://www.sciencedirect.com/science/article/pii/S1226798825003423',
-    abstract:
-      'Reviews current approaches to utilizing CO₂ within cementitious systems, including CO₂ curing, carbonation-activated SCMs, carbonated binders and aggregates, and injection of CO₂ into fresh concrete or mixing water. Discusses potential for simultaneous performance improvement and CO₂ sequestration, along with remaining challenges related to durability, process optimization, and large-scale deployment.',
-  },
-  {
-    title: 'Carbon capture and utilization for ready-mix concrete',
-    authors: 'R. K. Singh et al.',
-    journal: 'BETON 2023 Ready Mixed Concrete Congress',
-    time: '2023',
-    link: 'https://www.thbbakademi.org/wp-content/uploads/2023/10/Carbon-Capture-and-Utilization-for-Ready-Mix-Concrete.pdf',
-    abstract:
-      'Explores practical routes for integrating CO₂ capture and utilization technologies into ready-mix concrete production. Highlights the role of SCMs, nanomaterials, and carbon-negative additives such as biochar in increasing CO₂ uptake and influencing hydrate polymorphs, while outlining pathways toward carbon-neutral or carbon-reduced concrete mixtures.',
-  },
+export const publications: {
+  title: string;
+  authors: string;
+  journal: string;
+  time: string;
+  link?: string;
+  abstract?: string;
+}[] = [
+  // Add publications here when ready; format matches the example site.
 ];
 
 export const awards = [
   {
-    title: 'Outstanding PhD Student Award',
-    issuer: 'Department of Civil Engineering, The University of Texas at Arlington',
-    time: '2023, 2024, 2025',
-    location: 'Arlington, TX, USA',
+    title: 'ACI Foundation Fellowship 2024–25',
+    issuer: 'ACI Foundation',
+    time: 'Aug 2024 – May 2025',
+    location: 'USA',
     description:
-      'Recognized for excellence in research, academic performance, and contributions to the concrete materials group.',
+      'Highly competitive fellowship supporting graduate studies and research in concrete materials and structures.',
   },
   {
-    title: '1st Place – ACI Research in Progress Competition',
-    issuer: 'American Concrete Institute (ACI)',
-    time: 'Spring 2025',
-    location: 'ACI Convention',
+    title: 'SEI Futures Fund Scholarship',
+    issuer: 'Structural Engineering Institute (ASCE)',
+    time: 'Jan 2025',
+    location: 'USA',
     description:
-      'Awarded first place for a research-in-progress presentation on nano-reinforced, low-carbon cementitious composites.',
-  }
+      'Scholarship recognizing promising early-career structural engineers and graduate students engaged in SEI activities.',
+  },
+  {
+    title: 'Outstanding Civil Engineering PhD Student',
+    issuer: 'The University of Texas at Arlington',
+    time: 'Apr 2023',
+    location: 'Arlington, TX, USA',
+    description:
+      'Department-level recognition for academic excellence, research contributions, and service in the civil engineering PhD program.',
+  },
+  {
+    title: 'Transfer Completion Scholarship',
+    issuer: 'The University of Texas at Arlington',
+    time: 'Aug 2021',
+    location: 'Arlington, TX, USA',
+    description:
+      'Merit-based scholarship awarded upon successful transfer and continued strong academic performance.',
+  },
+  {
+    title: 'Engineering Gold Star Scholarship',
+    issuer: 'The University of Texas at Arlington',
+    time: 'Aug 2019',
+    location: 'Arlington, TX, USA',
+    description:
+      'Scholarship recognizing high-achieving engineering students.',
+  },
+  {
+    title: 'Transfer Honors Scholarship',
+    issuer: 'The University of Texas at Arlington',
+    time: 'Aug 2019 – May 2021',
+    location: 'Arlington, TX, USA',
+    description:
+      'Awarded for outstanding academic record as a transfer student; renewed for the 2019–20 and 2020–21 academic years.',
+  },
+  {
+    title: 'UTA Phi Theta Kappa / Thornton Scholarship',
+    issuer: 'The University of Texas at Arlington',
+    time: 'Aug 2019 – May 2021',
+    location: 'Arlington, TX, USA',
+    description:
+      'Scholarship supporting Phi Theta Kappa transfer students based on academic excellence and involvement.',
+  },
 ];
